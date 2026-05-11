@@ -70,7 +70,7 @@ class ClaudeReviewTests(unittest.TestCase):
     def test_rendered_review_has_required_sections(self) -> None:
         metadata = claude_review.PullRequestMetadata(
             title="Add session handling",
-            author="octoctat",
+            author="octocat",
             base="main",
             head="session",
             additions=6,
